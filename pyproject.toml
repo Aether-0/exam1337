@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exam1337"
+version = "0.1.0"
+description = "Educational plaintext HTTP credential exposure detector"
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+pcap = ["scapy>=2.5"]
